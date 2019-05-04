@@ -5,169 +5,234 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800" rel="stylesheet">
+
     <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <!--Icono sin funcionalidad-->
-        <span>P</span>
-        <!--Creo que es un boton que oculta el menu lateral-->
-        <button type="button"></button>
-        <ul>
-            <li>
-                <a href="#"> Music</a>
-            </li>
-            <li>
-                <a href="#"> Discover</a>
-            </li>
-            <li>
-                <a href="#"> Rising</a>
-            </li>
-            <li>
-                <a href="#"> Inspiration</a>
-            </li>
-            <li>
-                <a href="#"> My stars</a>
-            </li>
-            <li>
-                <a href="#"> Songs</a>
-            </li>
-            <li>
-                <a href="#"> Artist</a>
-            </li>
-            <li>
-                <a href="#"> Albums</a>
-            </li>
-            <li>
-                <a href="#"> Radio</a>
-            </li>
-        </ul>
-    </header>
+    <div class="site-body">
 
-    <main>
-        <!--Sección central-->
-        <section>
-            <form action="">
-                <label for="search"></label>
-                <input type="text" id="search">
-                <button type="submit"></button>
-            </form>
-            <h1>Gorillaz</h1>
-            <button type="button"><span></span> Save to My stars</button>
+        <header class="site-header">
+            <nav class="container">
+                <a class="site-header__icon" href="#"></a>
+                <button type="button" class="header-toogle"><span>-</span></button>
+                <ul class="site-header__list">
+                    <li class="list--title">
+                       <span class="list--title-text">Music </span> 
+                        <ul>
+                            <li>
+                                <a href="#"> Discover</a>
+                            </li>
+                            <li>
+                                <a href="#"> Rising</a>
+                            </li>
+                            <li>
+                                <a href="#"> Inspiration</a>
+                            </li>
+                            <li>
+                                <a href="#"> My stars</a>
+                            </li>
+                            <li>
+                                <a href="#"> Songs</a>
+                            </li>
+                            <li>
+                                <a href="#"> Artist</a>
+                            </li>
+                            <li>
+                                <a href="#"> Albums</a>
+                            </li>
+                            <li>
+                                <a href="#"> Radio</a>
+                            </li>
+                        </ul>
+                    </li>
 
-            <ul>
-                <li><a href="#">Albums</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Related artist</a></li>
-            </ul>
-            <div>
-                <ul>
-                    <li>
-                        <!--Se pintarán tantos elementos como resultados tenga-->
-                        <a href="@">Portada del disco</a>
-                        Humanz (Deluxe)
-                        <span>2017</span>
+                    <li class="list--title"><span class="list--title-text list--title-text2"> playlist</span>
+                        <button type="button">+</button>
+                        <ul>
+
+                            <li><a href="#"> Uplabs focus golden 80s</a> </li>
+                            <li><a href="#"> Gaming OSTs Playlist title</a></li>
+                            <li><a href="#"> Smash it!</a></li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="@">Portada del disco</a>
-                        Plastic Beach
-                        <span>2010</span>
-                    </li>
-                    <li>
-                        <a href="@">Portada del disco</a>
-                        The Fall
-                        <span>2010</span>
-                    </li>
-                    
                 </ul>
+            </nav>
+
+
+        </header>
+
+        <main class="site-main">
+            <!--Sección central-->
+            <section class="songs-section container--main">
+                <div class="songs-section__info">
+                    <form action="" class="search-form">
+                        <button type="submit"></button>
+                        <label for="search">Type here to search</label>
+                        <input type="text" id="search" placeholder="Type here to search">
+                    </form>
+                    <button class="btn--fav" type="button"><span></span> Save to My stars</button>
+                    <h1>Katy Perry</h1>
+
+                    <ul class="breadcrumb">
+                        <li><a href="#">Albums</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Related artist</a></li>
+                    </ul>
+                </div>
+
+                <div class="songs-section__media scrollbar">
+                    <ul class="wrapper">
+                        <li>
+                            <a href=""><img src="images/portada1.png" alt=""></a>
+                            Witness
+                            <span>2017</span>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/portada1.png" alt=""></a>
+                            PRISM
+                            <span>2013</span>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/portada1.png" alt=""></a>
+                            Teenage Dream
+                            <span>2012</span>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/portada1.png" alt=""></a>
+                            Titulo ksjdf
+                            <span>2012</span>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/portada1.png" alt=""></a>
+                            Titulo ksjdf
+                            <span>2012</span>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/portada1.png" alt=""></a>
+                            Titulo ksjdf
+                            <span>2012</span>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/portada1.png" alt=""></a>
+                            Titulo ksjdf
+                            <span>2012</span>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/portada1.png" alt=""></a>
+                            Titulo ksjdf
+                            <span>2012</span>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/portada1.png" alt=""></a>
+                            Titulo ksjdf
+                            <span>2012</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="songs-list">
+                <div class="user"> <span class="user-name">Andrew Z</span>
+
+                    <span class="user-icon"></span>
+                </div>
+                <div class="container--songs">
+                    <ul class="songs-list__list">
+                        <li>
+                            Random selection
+                        </li>
+                        <li>
+                            <a href="#">Feel Good Inc</a>
+                            <span>01:43</span><span>Demon Days</span>
+                        </li>
+                        <li>
+                            <a href="#">Feel Good Inc</a>
+                            <span>01:43</span><span>Demon Days</span>
+                        </li>
+                        <li>
+                            <a href="#">Feel Good Inc</a>
+                            <span>01:43</span><span>Demon Days</span>
+                        </li>
+                        <li>
+                            <a href="#">Feel Good Inc</a>
+                            <span>01:43</span><span>Demon Days</span>
+                        </li>
+                        <li>
+                            <a href="#">Feel Good Inc</a>
+                            <span>01:43</span><span>Demon Days</span>
+                        </li>
+                        <li>
+                            <a href="#">Feel Good Inc</a>
+                            <span>01:43</span><span>Demon Days</span>
+                        </li>
+                        <li>
+                            <a href="#">Feel Good Inc</a>
+                            <span>01:43</span><span>Demon Days</span>
+                        </li>
+                        <li>
+                            <a href="#">Feel Good Inc</a>
+                            <span>01:43</span><span>Demon Days</span>
+                        </li>
+                        <li>
+                                <a href="#">Feel Good Inc</a>
+                            <span>01:43</span><span>Demon Days</span>
+                        </li>
+                        <li>
+                                <a href="#">Feel Good Inc</a>
+                            <span>01:43</span><span>Demon Days</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+
+            <div class="cover--sm">
+                <img src="images/miniportada.png" alt="">
+                <div class="play-title">
+                    <span>Rhinenstone Eyes</span>
+                    <span> Gorillaz </span>
+                </div>
             </div>
-        </section>
+            <!--botonera-->
+            <div class="player">
+                <!--boton aleatorio -->
+                <button type="button"></button>
+                <!--boton anterior -->
+                <button type="button"></button>
+                <!-- boton pause -->
+                <button type="button">| |</button>
+                <!--boton siguiente -->
+                <button type="button"></button>
+                <!--boton repetir -->
+                <button type="button"></button>
+            </div>
+            <!--barra de audio-->
+            <div class="volume">
+                <button type="button"></button>
+                <span class="bar bar--volume"></span>
+                <!--Para la barra de volumen-->
+            </div>
+            <!--barra de video-->
+            <div class="audio">
+                <span>2:54</span>
+                <span class="bar bar--audio"></span>
+                <span>4:03</span>
+                <!--Para la barra de video-->
 
-        <!--sección esquina izda inferior-->
-        <article>
-            <h2>PLAYLISTS</h2>
-            <button type="button">+</button>
-            <ul>
-                <li>Uplabs focus <span>golden 80s</span> </li>
-                <li>Gaming <span>OSTs</span> <span>Play list title</span> </li>
-                <li>Smash it!</li>
-            </ul>
-        </article>
+                <!--Boton conectar con otros dispositivos-->
+                <button type="button" class="podcast"></button>
+                <!--boton que no se lo que hace-->
+                <button type="button" class="play-menu"></button>
+            </div>
+        </footer>
 
-        <section>
-           <p>Andrew Z<span></span></p> 
-           <h2>
-               Random selection
-           </h2>
-           <ul>
-               <!--No se si hay mas li de lo que aparece, haciendo un scroll, por lo que pondré solo 5 de ejemplo-->
-          <li>
-            <button type="button"> 
-                 Feel Good Inc
-                 <span>01:43</span>
-                 <p>Demon Days</p>                
-            </button>
-          </li>
-          <li>
-                <button type="button"> 
-                        Humility
-                        <span>02:15</span>
-                        <p>Fire Files</p>                
-                   </button>
-          </li>
-          <li>
-                <button type="button"> 
-                        Clint Eastwood
-                        <span>05:16</span>
-                        <p>Demon Days</p>                
-                   </button>
-          </li>
-          <li>
-                <button type="button"> 
-                        On melancholy
-                        <span>03:53</span>
-                        <p>Plastic beach</p>                
-                   </button>
-                   <button type="button"></button>
-                   <button type="button"></button>
-          </li>
-          
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <div>
-            <span>Imagen del disco</span>
-            <p>Rhinenstone Eyes</p>
-            <p> Gorillaz </p>
-        </div>
-        <!--botonera-->
-        <div>
-            <!--boton aleatorio -->
-            <button type="button"></button>
-            <!--boton anterior -->
-            <button type="button"></button>
-            <!-- boton pause -->
-            <button type="button"></button>
-            <!--boton siguiente -->
-            <button type="button"></button>
-            <!--boton repetir -->
-            <button type="button"></button>
-        </div>
-        <!--barra de video-->
-        <div>
-            <span></span>
-            <progress></progress>
-            <span></span>
-            <!--Boton conectar con otros dispositivos-->
-            <button type="button"></button>
-            <!--boton que no se lo que hace-->
-            <button type="button"></button>
-        </div>
+    </div>
 
-
-    </footer>
 </body>
 
 </html>
